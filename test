@@ -1,0 +1,7 @@
+app.js
+
+<AddTodo
+   onAddClick = {text =>
+   dispatch(addTodo(text))}
+/>
+<TodoList todos = {visibleTodos}/>
